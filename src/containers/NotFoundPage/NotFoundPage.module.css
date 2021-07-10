@@ -1,0 +1,15 @@
+.image {
+  margin: 100px auto;
+  margin-bottom: 30px;
+  width: 300px;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+
+.location {
+  margin: auto;
+  text-align: center;
+  font-size: var(--font-size-header);
+  font-family: var(--font-family-main);
+  color: var(--color-white);
+}

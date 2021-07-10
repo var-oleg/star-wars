@@ -1,0 +1,36 @@
+.button {
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: transparent;
+  outline: none;
+  transition: var(--transition);
+  cursor: pointer;
+  font-size: var(--font-size-small);
+  font-family: var(--font-family-main);
+  font-weight: var(--font-bold);
+}
+button:disabled,
+button:disabled:hover {
+  color: var(--color-gray);
+  background-color: transparent;
+  border-color: var(--color-gray);
+  cursor: auto;
+}
+.dark {
+  color: var(--color-white);
+  border: 1px solid var(--color-white);
+}
+.dark:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.light {
+  color: var(--color-black);
+  border: 1px solid var(--color-black);
+}
+.ligth:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
